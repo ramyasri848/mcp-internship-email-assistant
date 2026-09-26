@@ -48,3 +48,31 @@ It should open the Claude MCP configuration JSON. Replace its contents with:
 
 3.)NOW U CAN WORK WITH CLAUDE;
 
+push into github :
+in PS C:\Users\RAMYASRI\Desktop\mcp_server\my-mcp-server>
+ git init
+ git branch -M main
+ git add .
+ git status
+ git commit -m "Build internship email MCP assistant"
+
+ 
+  now create repo:mcp-internship-email-assistant:
+  git remote add origin https://github.com/ramyasri848/mcp-internship-email-assistant.git
+  git push -u origin main
+
+
+  //in git status(checking):
+  .venv should not be commited...
+   should not upload .venv to GitHub because it contains the entire local Python environment—installed packages, executables, caches, and machine-specific  files.    It can be very large and isn't needed to run your project elsewhere.
+
+   use( uv sync) to recreate the same environment..
+   Run uv sync inside the cloned project folder, where pyproject.toml is located.
+
+   project demonstrates:
+   <img width="540" height="817" alt="image" src="https://github.com/user-attachments/assets/b0dd7564-fcfa-45c7-a0cc-a36bdc96c537" />
+
+
+   step by step understanding:
+   <img width="286" height="467" alt="image" src="https://github.com/user-attachments/assets/4259952b-ba09-419c-8e5b-0100d5d4d7d3" />
+
